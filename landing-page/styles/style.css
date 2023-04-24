@@ -1,0 +1,165 @@
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #c58735 16.62%, #ffc35559 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.site-logo{
+    height: 18px;
+}
+
+.main-logo{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.main-logo-text{
+    color: black;
+    font-family: 'Alkatra', cursive;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: thick double #72531b;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Alkatra', cursive;
+    font-weight: 400;
+    font-size: 55px;
+    color: black;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo-principal-escrito-botao{
+    background: linear-gradient(68.15deg, #ebd77fde 16.62%, #aa621ea9 85.61%);
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    border: solid;
+    border-color: rgba(238, 232, 214, 0.144);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    cursor: pointer;
+    background-color: #d8b33942;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(148, 116, 67, 0.26),0 17px 50px 0 rgba(0,0,0,0.19);
+    animation: bounce 1s;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: thick double #72531b;
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.conteudo-secundario-titulo-paragrafo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+    border-top: thick double #72531b;
+}
+
+.rodape-main-logo{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.rodape-main-logo-text{
+    color: black;
+    font-family: 'Alkatra', cursive;
+    font-weight: 400;
+    font-size: 25px;
+}

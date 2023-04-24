@@ -1,0 +1,230 @@
+@import url('https://fonts.google.com/specimen/Space+Grotesk');
+
+body{
+    margin: 10px;
+    background-color: rgb(177, 63, 63);
+}
+
+.molduras{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#moldura{
+    position: relative;
+    width: 305px;
+    height: 280px;
+    margin: 10px 35px 10px 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 205px 200px;
+    background-position: center;
+}
+
+.container {
+    /* border: dotted; */
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* / */
+
+.borda0 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: 95px;
+
+    width: 660px;
+    height: 440px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-collapse: separate;
+    border-spacing: 25px;
+    background-color: rgb(156, 13, 13);
+    text-align: center;
+}
+
+#print-log0 {
+    position: relative;
+    margin: 16px;
+    /* top: 800px;
+    right: 135px; */
+    border-style: solid;
+    border-color: aliceblue;
+    border-collapse: separate;
+    border-spacing: 25px;
+    opacity: 0.5;
+    transition: transform .2s;
+}
+
+#print-log0:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+/* / */
+
+.borda1 {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: 95px;
+
+    width: 660px;
+    height: 440px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-collapse: separate;
+    border-spacing: 25px;
+    background-color: rgb(156, 13, 13);
+    text-align: center;
+}
+
+#print-log1 {
+    position: relative;
+    margin: 16px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-collapse: separate;
+    border-spacing: 25px;
+    opacity: 0.5;
+    transition: transform .2s;
+}
+
+#print-log1:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+/* / */
+
+.borda2 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: 95px;
+
+    width: 660px;
+    height: 440px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-collapse: separate;
+    border-spacing: 25px;
+    background-color: rgb(156, 13, 13);
+    text-align: center;
+}
+
+#print-log2 {
+    position: relative;
+    margin: 16px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-collapse: separate;
+    border-spacing: 25px;
+    opacity: 0.5;
+    transition: transform .2s;
+}
+
+#print-log2:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+/* / */
+
+#text-left{
+    margin: 200px 0px 0px 350px;
+    color: aliceblue;
+    font-family: 'Sofia', sans-serif;
+    font-size: 50px
+}
+
+#text-right{
+    margin: 200px 350px 0px 0px;
+    color: aliceblue;
+    font-family: 'Sofia', sans-serif;
+    font-size: 50px
+}
+
+/* / */
+
+.text-anim1{
+    position: relative;
+
+    color: aliceblue;
+    animation-name: text-anim1;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    justify-content: center;
+}
+
+@keyframes text-anim1 {
+    0%  {bottom: -200px;}
+    100% {bottom: 0px;}
+}
+
+.text-anim2{
+    position: relative;
+
+    color: aliceblue;
+    animation-name: text-anim2;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    justify-content: center;
+}
+
+@keyframes text-anim2 {
+    0%  {bottom: -300px;}
+    100% {bottom: 0px;}
+}
+
+.text-anim3{
+    position: relative;
+
+    color: aliceblue;
+    animation-name: text-anim3;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    justify-content: center;
+    
+}
+
+@keyframes text-anim3 {
+    0%  {bottom: -400px;}
+    100% {bottom: 0px;}
+}
+
+.text-anim4{
+    position: relative;
+
+    color: aliceblue;
+    animation-name: text-anim4;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    justify-content: center;
+}
+
+@keyframes text-anim4 {
+    0%  {bottom: -500px;}
+    100% {bottom: 0px;}
+}
+.foto {
+    border-radius: 15%;
+    width: 60%;
+    z-index: -1;
+}
+.moldura {
+    background-image: url('moldura.png');
+    background-size: 100%;
+    width: 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
