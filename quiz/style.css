@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./fundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    width: 40%;
+    height: 95%;
+    padding: 20px;
+    background-color: rgb(158, 158, 158);
+    border: 1px solid antiquewhite;
+    border-radius: 50px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.perguntas {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-resposta {
+    display: none;
+}
+
+#perg1-resp2:checked ~ label[for="perg1-resp2"],
+#perg2-resp1:checked ~ label[for="perg2-resp1"],
+#perg3-resp2:checked ~ label[for="perg3-resp2"] {
+    background-color: green;
+}
+
+#perg1-resp1:checked ~ label[for="perg1-resp1"],
+#perg2-resp2:checked ~ label[for="perg2-resp2"],
+#perg3-resp1:checked ~ label[for="perg3-resp1"] {
+    background-color: red;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+label:hover {
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+}
