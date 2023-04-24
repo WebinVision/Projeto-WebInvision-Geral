@@ -1,10 +1,15 @@
 body {
     margin: 0;
     background-color: black;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.container {
+a {
+    text-decoration: none;
+    color: #3b1f02;
+}
+
+.background {
     position: relative;
     width: 100%;
     height: 100%;
@@ -19,6 +24,7 @@ body {
 .content {
     width: 40%;
     height: 95%;
+    margin-top: 20vh;
     padding: 20px;
     background-color: rgb(158, 158, 158);
     border: 1px solid antiquewhite;
@@ -26,8 +32,62 @@ body {
     opacity: 0.7;
 }
 
-header {
+.upper-text {
     text-align: center;
+}
+
+.container {
+    max-width: 100%;
+    padding: 1%;
+    position: relative;
+    justify-content: space-between;
+    background: rgb(177, 63, 63);
+}
+
+.header-main-container {
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    color: #3b1f02;
+}
+
+.header-main-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.header-list-paginas {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    right: 0;
+}
+
+.header-list-item {
+    height: 100%;
+    position: relative;
+    display: inline-flex;
+    margin: auto 7rem;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1.4rem;
+}
+
+.header-list-paginas a:hover {
+    color: rgb(233, 159, 159);
+    transition: all 300ms ease-in-out;
 }
 
 #myfile {
@@ -75,3 +135,45 @@ header {
     max-width: 100%;
     max-height: 100%;
 }
+
+.footer-main-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-wrapper {
+    position: absolute;
+    display: block;
+    width: 100vw;
+  }
+  
+  .footer-main {
+    padding: 2%;
+  }
+  
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .footer-logos > a {
+    font-size: 2rem;
+  }
+  
+  .footer-small-text {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footer-simbols {
+    font-size: 2.4rem;
+  }
+  
+  .footer-links-socialmedia {
+    display: block;
+  }
+  

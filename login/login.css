@@ -23,7 +23,7 @@ a {
 
 .container {
     max-width: 100%;
-    padding: 0.5%;
+    padding: 1%;
     position: relative;
     justify-content: space-between;
     background: rgb(177, 63, 63);
@@ -40,7 +40,7 @@ a {
 .main-logo {
     display: flex;
     align-items: center;
-    font-size: 3.8rem;
+    font-size: 3rem;
     color: #3b1f02;
 }
 
@@ -61,7 +61,6 @@ a {
     flex-wrap: wrap;
     list-style: none;
     right: 0;
-    font-size: 2rem;
 }
 
 .header-list-item {
@@ -72,7 +71,7 @@ a {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .header-list-paginas a:hover {
@@ -244,3 +243,45 @@ input:focus ~ :valid{
 .register p a:hover{
     text-decoration: underline;
 }
+
+.footer-main-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-wrapper {
+    position: absolute;
+    display: block;
+    width: 100vw;
+  }
+  
+  .footer-main {
+    padding: 3%;
+  }
+  
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .footer-logos > a {
+    font-size: 2rem;
+  }
+  
+  .footer-small-text {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footer-simbols {
+    font-size: 2.4rem;
+  }
+  
+  .footer-links-socialmedia {
+    display: block;
+  }
+  
