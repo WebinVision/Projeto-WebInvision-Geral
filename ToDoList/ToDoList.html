@@ -47,14 +47,15 @@
   <input type="text" id="myInput" placeholder="Title...">
   <span onclick="newElement()" class="addBtn">Add</span>
   </div>
-  <section id="draggable-container" class="w-100 p-4" style="height: 400px; overflow: hidden;">
 
-<ul id="myUL" data-mdb-sortable="sortable" class="data-mdb-container">
+<ul id="myUL">
+  <div data-mdb-sortable="sortable" class="data-mdb-container">
   <li class="sortable-item">Enviar mentiras</li>
   <li class="sortable-item">Apagar filmagens</li>
   <li class="sortable-item">Censurar conversas</li>
-  </ul>
-</section>
+  </div>
+</ul>
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
