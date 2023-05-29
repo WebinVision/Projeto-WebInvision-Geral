@@ -1,72 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-<!doctype html>
-<html lang="en">
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/plugins/standard/drag-and-drop.min.css">
-
-</head>
-
-
-
-
-
-
-</html>
-    
-    <title>Todo List | Frontend Mentor</title>
-    <link rel="stylesheet" href="ToDoList.css" />
-    <script defer src="ToDoList.js"></script>
-</head>
-<body>
-
-
-    <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+   <head>
+      <title>jQuery UI Sortable - Example</title>
+      <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      
+      <title>Todo List | Frontend Mentor</title>
+      <link rel="stylesheet" href="ToDoList6.css" />
+      <script defer src="ToDoList.js"></script>
 
-<div class="container" >
+      <script>
+         $(function() {
+            $( "#sortable-1" ).sortable();
+         });
+      </script>
+   </head>   
+   <body>
 
-  <div id="myDIV" class="header">
-  <h2 style="margin:5px">My To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-  </div>
+    <div class="container" >
 
-<ul id="myUL">
-  <div data-mdb-sortable="sortable" class="data-mdb-container">
-  <li class="sortable-item">Enviar mentiras</li>
-  <li class="sortable-item">Apagar filmagens</li>
-  <li class="sortable-item">Censurar conversas</li>
-  </div>
-</ul>
+      <div id="myDIV" class="header">
+      <h2 style="margin:5px">My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
 
-</div>
+      <ul id = "sortable-1" id = "myUL">
+         <li class = "default">Product 1</li>
+         <li class = "default">Product 2</li>
+         <li class = "default">Product 3</li>
+         <li class = "default">Product 4</li>
+         <li class = "default">Product 5</li>
+         <li class = "default">Product 6</li>
+         <li class = "default">Product 7</li>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-</script>
-
-<script src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/js/dist/mdb5/plugins/standard/drag-and-drop.min.js"></script>
-
-</body>
+      </ul>
+   </body>
 </html>
