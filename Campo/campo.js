@@ -165,7 +165,6 @@ function fimDeJogo() {
         tabela.onclick = undefined;
         tabela.oncontextmenu = undefined;
         startConfetti();
-        alert("Você venceu!");
         
         
     }

@@ -19,37 +19,64 @@
       text-align: center;
   }
   .blocked, .flag {
-      background: rgb(246, 203, 255);    
+      background: #3E0E1F;    
   }
 
   .blocked:hover, .flag:hover {
-      background: rgb(242, 176, 255); 
+      background: #660342; 
   }
 
-  .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8 {
-      background-color: #eee;
+.container{
+    background-color: #F6E1E1;
+    display: table-row;
+    display: table;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100vh;
+    border-left: solid white;
+    border-right: solid white;
+    box-shadow: 0px 0px 25px #000000;
+}
+
+.fundoT {background-color:#d1284dd8}
+
+body {
+    background: no-repeat;
+    background: fixed;
+    background-image: url(minas2.png);
+    background-size: cover;
+    
+    margin: 0;
+}
+
+#confetti-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
   }
-  .n1 {
-      color: blue;
-  }
-  .n2 {
-      color: green;
-  }
-  .n3 {
-      color: red;
-  }
-  .n4 {
-      color: maroon;
-  }
-  .n5 {
-      color: blueviolet;
-  }
-  .n6 {
-      color: darkgoldenrod;
-  }
-  .n7 {
-      color: orange;
-  }
-  .n8 {
-      color: tomato;
-  }
+
+.regras {
+    background-color: #bd173b;
+    border: solid white;
+    border-style: 2px;
+    width: 300px;
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 0px 10px 7.5px 10px;
+}
+
+.botao {
+    background-color: #F6E1E1;
+    border: solid rgb(121, 0, 36);
+    border-radius: 10px;
+}
+
+.botao:hover
+{
+background-color: #ffb4b4;
+
+}
