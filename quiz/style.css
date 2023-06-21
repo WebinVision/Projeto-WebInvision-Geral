@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./fundo.png);
+    background-color: #D1284C;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -20,7 +19,7 @@ body {
     width: 40%;
     height: 95%;
     padding: 20px;
-    background-color: rgb(158, 158, 158);
+    background-color: #F6E1E1;
     border: 1px solid antiquewhite;
     border-radius: 50px;
     opacity: 0.7;
