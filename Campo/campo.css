@@ -80,3 +80,25 @@ body {
 background-color: #ffb4b4;
 
 }
+
+.voltar {
+    background-color: #bd173b;
+    border: solid white;
+    border-style: 2px;
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.voltar:hover
+{
+background-color: #ffb4b4;
+
+}
+
+a {
+    text-decoration: none;
+    color: #660342;
+}

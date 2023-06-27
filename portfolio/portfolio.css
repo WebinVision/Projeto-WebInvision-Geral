@@ -2,12 +2,12 @@
 
 body{
     margin: 0;
-    background-color: rgb(177, 63, 63);
+    background-color: #F6E1E1;
 }
 
 a {
     text-decoration: none;
-    color: #3b1f02;
+    color: #3E0E1F;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -106,7 +106,7 @@ a {
     border-color: aliceblue;
     border-collapse: separate;
     border-spacing: 25px;
-    background-color: rgb(156, 13, 13);
+    background-color: #D1284C;
     text-align: center;
 }
 
@@ -142,7 +142,7 @@ a {
     border-color: aliceblue;
     border-collapse: separate;
     border-spacing: 25px;
-    background-color: rgb(156, 13, 13);
+    background-color: #D1284C;
     text-align: center;
 }
 
@@ -176,7 +176,7 @@ a {
     border-color: aliceblue;
     border-collapse: separate;
     border-spacing: 25px;
-    background-color: rgb(156, 13, 13);
+    background-color: #D1284C;
     text-align: center;
 }
 
@@ -200,14 +200,14 @@ a {
 
 #text-left{
     margin: 200px 0px 0px 350px;
-    color: aliceblue;
+    color: #3E0E1F;
     font-family: 'Sofia', sans-serif;
     font-size: 50px
 }
 
 #text-right{
     margin: 200px 350px 0px 0px;
-    color: aliceblue;
+    color: #3E0E1F;
     font-family: 'Sofia', sans-serif;
     font-size: 50px
 }
@@ -217,7 +217,7 @@ a {
 .text-anim1{
     position: relative;
 
-    color: aliceblue;
+    color: #3E0E1F;
     animation-name: text-anim1;
     animation-duration: 4s;
     animation-delay: -2s;
@@ -232,7 +232,7 @@ a {
 .text-anim2{
     position: relative;
 
-    color: aliceblue;
+    color: #3E0E1F;
     animation-name: text-anim2;
     animation-duration: 4s;
     animation-delay: -2s;
@@ -247,7 +247,7 @@ a {
 .text-anim3{
     position: relative;
 
-    color: aliceblue;
+    color: #3E0E1F;
     animation-name: text-anim3;
     animation-duration: 4s;
     animation-delay: -2s;
@@ -263,7 +263,7 @@ a {
 .text-anim4{
     position: relative;
 
-    color: aliceblue;
+    color: #3E0E1F;
     animation-name: text-anim4;
     animation-duration: 4s;
     animation-delay: -2s;

@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(160, 12, 44);
     background-color: black;
     /* background-image: url(./fundo.jpg);
     background-size: cover; */

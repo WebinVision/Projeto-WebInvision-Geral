@@ -125,3 +125,23 @@ input {
          .default {
             border: 1px solid #DDDDDD;
          }
+
+.voltar {
+  background-color: #bd173b;
+  border: solid #660342;
+  border-style: 2px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 10px 10px 10px;
+}
+      
+.voltar:hover {
+  background-color: #ffb4b4;  
+  }
+      
+a {
+  text-decoration: none;
+  color: #660342;
+      }
