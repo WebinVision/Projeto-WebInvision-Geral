@@ -1,0 +1,67 @@
+body {
+    background-color: #d1284d;;
+}
+
+.keyboard-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    border: 3px #3E0E1F solid;
+    border-image: conic-gradient(from var(--angle), #3E0E1F, rgb(255, 255, 255)) 1;
+    animation: 20s rotate linear infinite;
+    padding: 20px;
+}
+.keyboard-row {
+    margin-bottom: 10px;
+}
+.keyboard-key {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 70px;
+    color: #ccc;
+    transition: .2s;
+}
+.keyboard-key:hover {
+    background-color: #ccc;
+    border-color: #3E0E1F;
+    color: #3E0E1F;
+}
+.keyboard-key:active {
+    background-color: white;
+    border-color: black;
+    box-shadow: 1px 2px 5px black;
+}
+.keyboard-key.double {
+    width: 140px;
+}
+.keyboard-key.space {
+    width: 210px;
+}
+#text {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 100px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
