@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    min-width: 400px;
 }
 
 main {
@@ -18,6 +25,25 @@ main {
     height: 5.5em;
 }
 
+@media (max-width: 1200px) {
+    .header-container {
+        height: 8em;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-container {
+        height: 8.5em;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header-text h1 {
+        font-size: 2.3em;
+    }
+}
+
+
 @media (max-width: 945px) {
     .header-text h1 {
         font-size: 2em;
@@ -26,13 +52,30 @@ main {
 
 @media (max-width: 770px) {
     .header-text h1 {
-        font-size: 1.6em;
+        font-size: 1.7em;
+    }
+}
+
+
+@media (min-width: 500px) {
+    .main-content > h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 560px) {
+    .main-content > h1 {
+        font-size: 2.3em;
+    }
+
+    #timer {
+        font-size: 3em;
     }
 }
 
 .header-text {
-    margin: 0 15%;
-    white-space: nowrap;
+    margin: 0 18%;
+    width: 100%;
 }
 
 .bg-image {
@@ -53,18 +96,16 @@ main {
 
 .main-content {
     text-align: center;
+    width: 100%;
 }
 
 .info {
     justify-content: space-between;
+    width: 100%;
     margin-top: 3em;
 }
 
-.main-content > h1 {
-    font-size: 3em;
-}
-
-.main-content > h3 {
+.main-content > h2 {
     font-size: 1.6em;
 }
 
@@ -72,18 +113,33 @@ main {
     font-size: 1.8em;
 }
 
-.contagem > h1 {
+.countdown > h1 {
     font-size: 3.5em;
+    font-weight: 700;
 }
 
-.info > h4{
+.info-text{
     font-size: 1.3em;
 }
 
 .data, .local {
-    width: 10em;
     background: rgba(32, 163, 65, 0.507);
     border-style: outset;
     border-color: rgba(0, 1, 3, 0.411);
     border-radius: 1em;
+    text-align: center;
+}
+
+.icon {
+    font-size: 1.5em;
+    color: rgb(39, 52, 95);
+}
+
+/* .footer-main-container {
+    margin-top: 10%;
+} */
+
+.footer-container {
+    justify-content: space-between;
+    align-items: center;
 }
