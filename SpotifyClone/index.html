@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700display=swap" rel="stylesheet" 
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-wraper">
+
+            <div class="sidebar__logo">
+                <img src="img/Spotify_Logo_CMYK_Green.png"/>
+            </div><!--sidebar-logo-->
+
+            <div class="sidebar__menu">
+                <a class="sidebar__menu__selecionado" href="#"><i class="fas fa-home"></i>Início</a>
+                <a href="#"><I class="fas fa-search"></I>Buscar</a>
+                <a href="#"><i class="fas fa-database"></i>Biblioteca</a>
+            </div><!--sidebar-menu-->
+
+            <div class="sidebar__menu">
+                <P class="sidebar__menu__title">Playlists</P>
+
+                <div class="sidebar__menu__item">
+                    <div class="sidebar__menu__item__componente">
+                        <strong>+</strong>
+                    </div>
+                    <span>Criar Playlists</span>
+                </div><!--sidebar--menu--item-->
+
+                <div class="sidebar__menu__item">
+                    <img src="img/curtidasSpotify.jpg"/>
+                    <span>Músicas Curtidas</span>
+                </div><!--sidebar--menu--item-->
+
+            </div><!--sidebar--menu-->
+
+            <div class="sidebar__playlists">
+                <img src="img/chillSpotify.jpg">
+                <a href="">Playlist 2</a>
+                <a href="">Playlist 3</a>
+                <a href="">Playlist 4</a>
+                <a href="">Playlist 5</a>
+            </div><!--sidebar-playlists-->
+
+            <div class="sidebar__playlists">
+                <a href="">Playlist 6</a>
+                <a href="">Playlist 7</a>
+                <a href="">Playlist 8</a>
+                <a href="">Playlist 9</a>
+                <a href="">Playlist 10</a>
+            </div><!--sidebar-playlists-->
+
+            <div class="sidebar__playlists">
+                <a href="">Playlist 11</a>
+                <a href="">Playlist 12</a>
+                <a href="">Playlist 13</a>
+                <a href="">Playlist 14</a>
+                <a href="">Playlist 15</a>
+            </div><!--sidebar-playlists-->
+
+        </div><!--sidebar-wraper-->
+
+    </div><!--sidebar-->
+
+    <div class="main">
+        <div class="main-wraper">
+
+            <div class="main__row">
+                <div class="main__row__title"><h2>Foco</h2></div>
+
+                <div class="main__col">
+                    <img src="img/pianoSpotify.jpg"/>
+                    <h3>Peaceful Piano</h3>
+                    <p>Peaceful piano to help you slow down...</p>
+                </div><!--main-col-->
+
+                <div class="main__col">
+                    <img src="img/focusSpotify.jpg"/>
+                    <h3>Deep Focus</h3>
+                    <p>Keep calm and focus with ambient and pos...</p>
+                </div><!--main-col-->
+
+                <div class="main__col">
+                    <img src="img/studySpotify.jpg"/>
+                    <h3>Instrumental Study</h3>
+                    <p>Focus with study music in the...</p>
+                </div><!--main-col-->
+
+                <div class="main__col">
+                    <img src="img/flowSpotify.jpg"/>
+                    <h3>Focus Flow</h3>
+                    <p>Uptempo instrumental hip hop beats.</p>
+                </div><!--main-col-->
+
+                <div class="main__col">
+                    <img src="img/workdaySpotify.jpg"/>
+                    <h3>Workday Lounge</h3>
+                    <p>Lounge and chill out music for you workday.</p>
+                </div><!--main-col-->
+
+                <div class="main__col">
+                    <img src="img/voltaSpotify.jpg"/>
+                    <h3>Volta</h3>
+                    <p>O Termo *Melhor do Que Parece* 2016* 3:42</p>
+                </div><!--main-col-->
+
+            </div><!--main-row-->
+
+            <div class="main__row">
+                <div class="main__row__title"><h2>Minha Playlist</h2></div>
+
+                <div class="main__col" data-image="img/taylorSpotify.jpg" data-artist="Taylor Swift" data-song="Top 50" data-file="assets/music.mp3">
+                    <img src="img/taylorSpotify.jpg"/>
+                    <h3>Top 50 </h3>
+                    <p>As 50 Músicas Mais Tocadas de Taylor Swift.</p>
+                </div><!--main-col-->
+
+                <div class="main__col" data-image="img/fireSpotify.jpg" data-artist="Sam Smith" data-song="Fire On Fire " data-file="#">
+                    <img src="img/fireSpotify.jpg"/>
+                    <h3>Fire on Fire</h3>
+                    <p>Sam Smith *Love Goes* 2020 *4:06</p>
+                </div><!--main-col-->
+
+                <div class="main__col" data-image="img/lanaSpotify.jpg" data-artist="Lana Del Rey" data-song="Top 50" data-file="#">
+                    <img src="img/lanaSpotify.jpg"/>
+                    <h3>Top 50 </h3>
+                    <p>As 50 Músicas Mais Tocadas de Lana Del Rey para Você Chorar.</p>
+                </div><!--main-col-->
+
+        </div><!--main-wraper-->
+    </div>
+
+    <div class="player">
+        <div class="player__artist">
+
+        </div>
+        <div class="player__control">
+            <div class="player__control__buttons">
+                <a href=""><i class="fas fa-backward"></i></a>
+                <a style="display: none;" id="pauseBtn" href="#"><i class="far fa-pause-circle"></i></a>
+                <a id="playBtn" href="#"><i class="far fa-play-circle"></i></a>
+                <a href=""><i class="fas fa-forward"></i></a>
+            </div>
+
+            <div class="player__control__progress">
+                <div style="width: 50%;" class="player__control__progress_2">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div><!--player-->
+
+    <audio id="audioplayer" style="position: absolute;left: 0;top: 0;z-index: -999;opacity: 0;" controls="">
+        <source src="assets/ride.mp3">
+    </audio>
+
+    <script src="js/all.min.js"></script>
+
+    <script>
+        var audioPlayer = document.getElementById('audioplayer');
+        var loaded = false;
+
+        var playBtn = document.getElementById('playBtn')
+        var pauseBtn = document.getElementById('pauseBtn')
+
+        pauseBtn.addEventListener('click', (e)=>{
+            e.preventDefault();
+
+            playBtn.style.display = "inline"
+            pauseBtn.style.display = "none"
+            audioPlayer.pause();
+            return false;
+        });
+
+        playBtn.addEventListener('click', (e)=>{
+            e.preventDefault();
+
+            playBtn.style.display = "none"
+            pauseBtn.style.display = "inline"
+            audioPlayer.play();
+            return false;
+        });
+
+        const playSong = (file) => {
+
+            if(loaded == false){
+                audioPlayer.innerHTML = `<source src="`+file+`" type="audio/mp3"/>`;
+            }
+
+            audioPlayer.play();
+
+            playBtn.style.display = "none";
+            pauseBtn.style.display = "inline";
+        }
+
+        document.querySelectorAll('.main__col').forEach(item =>{
+            item.addEventListener('click',event=>{
+                let image = item.getAttribute('data-image');
+                let artist = item.getAttribute('data-artist');
+                let song = item.getAttribute('data-song');
+                let file = item.getAttribute('data-file');
+
+                let playerArtistComponent = document.getElementsByClassName('player__artist');
+
+                playerArtistComponent[0].innerHTML = `
+                <img src="`+image+`"/>
+                <h3>`+artist+`<br/><span>`+song+`</span></h3>`;
+
+                playSong(File);
+            })
+        });
+
+    </script>
+</body>
+</html>
